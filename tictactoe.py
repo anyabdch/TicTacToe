@@ -162,22 +162,3 @@ while True:
             whose_turn = 'player'
         
 
-
-    # TODO (for HW5): each time either the computer plays, 
-    # check if someone won or if there's a tie.
-
-##        outcome_determined = False
-##        while not outcome_determined:
-##            new_game = input('This game has ended in a tie. Would you like to play again? (enter \'yes\' or \'no\')')
-##            try:
-##                if new_game.lower() == 'yes':
-##                    first_determined = False
-##                    outcome_determined = True
-##                    game_data = [' ']*9
-##                elif new_game.lower() == 'no':
-##                    print('Quitting...')
-##                    break
-##            except:
-##                print('Please enter \'yes\' or \'no\' to continue or quit.')
-    
-
